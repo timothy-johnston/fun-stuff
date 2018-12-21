@@ -1,6 +1,6 @@
-package codingChallenges.problems;
+package codingChallenges.hackerRank;
 
-public class HackerRankProblems {
+public class CountingValleys {
 
 	public void countingValleys() {
 		

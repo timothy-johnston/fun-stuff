@@ -1,6 +1,7 @@
 package codingChallenges;
 
-import codingChallenges.problems.HackerRankProblems;
+import codingChallenges.hackerRank.CountingValleys;
+import codingChallenges.hackerRank.JumpingOnTheClouds;
 import codingChallenges.sandbox.Greeting;
 
 public class Main {
@@ -11,11 +12,14 @@ public class Main {
 		String name = "tj";
 		greeting.sayHello(name);
 		
+		//----------------------------------------------------------
 		//Challenges
-		HackerRankProblems hr = new HackerRankProblems();
+		//----------------------------------------------------------
 		
-		hr.countingValleys();
-
+		//HackerRank Challenges-------------------------------------
+		new CountingValleys().countingValleys();
+		new JumpingOnTheClouds().jumpingOnTheClouds();
+		
 	}
 	
 	
