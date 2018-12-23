@@ -2,6 +2,7 @@ package codingChallenges;
 
 import codingChallenges.hackerRank.CountingValleys;
 import codingChallenges.hackerRank.JumpingOnTheClouds;
+import codingChallenges.hackerRank.RepeatedString;
 import codingChallenges.sandbox.Greeting;
 
 public class Main {
@@ -19,6 +20,7 @@ public class Main {
 		//HackerRank Challenges-------------------------------------
 		new CountingValleys().countingValleys();
 		new JumpingOnTheClouds().jumpingOnTheClouds();
+		new RepeatedString().repeatedString();
 		
 	}
 	
