@@ -4,45 +4,44 @@ public class RepeatedString {
 
 	public void repeatedString() {
 		
-		long repetitions = 1000000000L;
+		long numberOfChars = 10;
 		String string = "a";
 		
-		long countA = repeatedStringImpl(string, repetitions);
-		System.out.println("Number of 'A's: " + countA);
+		System.out.println("Number of 'A's: " + repeatedStringImpl(string, numberOfChars));
 		
 	}
 	
-	private long repeatedStringImpl(String string, long repetitions) {
+	private long repeatedStringImpl(String string, long numberOfChars) {
 		
-		long countA = 0L;
-		long stringLength = string.length();
-		long fullStringOccurrences = repetitions / stringLength;
-		long countOfDroppedLettersOnFinalStringRep = repetitions % stringLength;
-		String droppedLettersOnFinalStringRep = string.substring(string.length() -1);
+		if (string.length() == 0) {
+			return 0L;
+		}
 		
+		long numberOfFullWords = (long) Math.floor(numberOfChars / string.length());
+		long numberOfCarriedLetters = numberOfChars % (long) string.length();
 		
-		//Count occurrences of A in all full occurrences of the string
-		//Also check if the letter will be dropped on the final occurrences
-		//If so, increment count by one less
-		for (int i = 0; i < stringLength; i++) {
+		//count a's in part of word before dropped
+		int aInFirstPart = 0;
+		for (int i = 0; i < numberOfCarriedLetters; i++) {
 			
 			if (String.valueOf(string.charAt(i)).equalsIgnoreCase("a")) {
-				
-				if (i < stringLength - countOfDroppedLettersOnFinalStringRep -1) {
-					countA += (fullStringOccurrences + 1);
-				} else {
-					countA += (fullStringOccurrences);
-				}
-				
+				aInFirstPart++;
 			}
 			
 		}
 		
+		//count a's in part of word dropped
+		int aInSecondPart = 0;
+		for (int i = (int) numberOfCarriedLetters; i <string.length(); i++) {
+			
+			if (String.valueOf(string.charAt(i)).equalsIgnoreCase("a")) {
+				aInSecondPart++;
+			}
+			
+		}
 		
-		System.out.println(fullStringOccurrences);
-		System.out.println(droppedLettersOnFinalStringRep);
+		long totalA = aInFirstPart * (numberOfFullWords + 1) + aInSecondPart * (numberOfFullWords);
 		
-		return countA;
+		return totalA;
 	}
-	
 }
