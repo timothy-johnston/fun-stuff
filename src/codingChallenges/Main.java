@@ -2,6 +2,7 @@ package codingChallenges;
 
 import codingChallenges.hackerRank.CompareTheTriplets;
 import codingChallenges.hackerRank.CountingValleys;
+import codingChallenges.hackerRank.HourglassSum;
 import codingChallenges.hackerRank.JumpingOnTheClouds;
 import codingChallenges.hackerRank.RansomNote;
 import codingChallenges.hackerRank.RepeatedString;
@@ -25,6 +26,7 @@ public class Main {
 		new RepeatedString().repeatedString();
 		new RansomNote().ransomNote();
 		new CompareTheTriplets().compareTheTriplets();
+		new HourglassSum().hourglassSum();
 		
 	}
 	
