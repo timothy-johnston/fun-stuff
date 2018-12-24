@@ -1,5 +1,6 @@
 package codingChallenges;
 
+import codingChallenges.hackerRank.CompareTheTriplets;
 import codingChallenges.hackerRank.CountingValleys;
 import codingChallenges.hackerRank.JumpingOnTheClouds;
 import codingChallenges.hackerRank.RansomNote;
@@ -23,6 +24,7 @@ public class Main {
 		new JumpingOnTheClouds().jumpingOnTheClouds();
 		new RepeatedString().repeatedString();
 		new RansomNote().ransomNote();
+		new CompareTheTriplets().compareTheTriplets();
 		
 	}
 	
