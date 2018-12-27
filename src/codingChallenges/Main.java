@@ -1,5 +1,6 @@
 package codingChallenges;
 
+import codingChallenges.freeCodeCamp.ReverseAString;
 import codingChallenges.hackerRank.CompareTheTriplets;
 import codingChallenges.hackerRank.CountingValleys;
 import codingChallenges.hackerRank.HourglassSum;
@@ -27,6 +28,9 @@ public class Main {
 		new RansomNote().ransomNote();
 		new CompareTheTriplets().compareTheTriplets();
 		new HourglassSum().hourglassSum();
+		
+		//FreeCodeCamp Challenges
+		new ReverseAString().reverseAString();
 		
 	}
 	
