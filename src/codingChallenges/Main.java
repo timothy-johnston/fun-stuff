@@ -1,6 +1,7 @@
 package codingChallenges;
 
 import codingChallenges.freeCodeCamp.FactorializeANumber;
+import codingChallenges.freeCodeCamp.FindLongestWord;
 import codingChallenges.freeCodeCamp.ReverseAString;
 import codingChallenges.hackerRank.CompareTheTriplets;
 import codingChallenges.hackerRank.CountingValleys;
@@ -33,6 +34,7 @@ public class Main {
 		//FreeCodeCamp Challenges
 		new ReverseAString().reverseAString();
 		new FactorializeANumber().factorializeANumber();
+		new FindLongestWord().findLongestWord();
 		
 	}
 	
