@@ -1,5 +1,6 @@
 package codingChallenges;
 
+import codingChallenges.freeCodeCamp.ConfirmEnding;
 import codingChallenges.freeCodeCamp.FactorializeANumber;
 import codingChallenges.freeCodeCamp.FindLargestNumbers;
 import codingChallenges.freeCodeCamp.FindLongestWord;
@@ -37,6 +38,7 @@ public class Main {
 		new FactorializeANumber().factorializeANumber();
 		new FindLongestWord().findLongestWord();
 		new FindLargestNumbers().findLargestNumbers();
+		new ConfirmEnding().confirmEnding();
 		
 	}
 	

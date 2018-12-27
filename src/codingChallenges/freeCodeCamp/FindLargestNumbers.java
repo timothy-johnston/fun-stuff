@@ -27,7 +27,6 @@ public class FindLargestNumbers {
 //			largestNumbers[i] = tempLargest;
 			System.out.print(tempLargest + " ");
 		}
-		System.out.println("\n");
 	}
 	
 	
