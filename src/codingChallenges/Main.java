@@ -6,6 +6,7 @@ import codingChallenges.freeCodeCamp.FindLargestNumbers;
 import codingChallenges.freeCodeCamp.FindLongestWord;
 import codingChallenges.freeCodeCamp.RepeatAString;
 import codingChallenges.freeCodeCamp.ReverseAString;
+import codingChallenges.freeCodeCamp.TitleCaseASentence;
 import codingChallenges.freeCodeCamp.TruncateString;
 import codingChallenges.hackerRank.CompareTheTriplets;
 import codingChallenges.hackerRank.CountingValleys;
@@ -43,6 +44,7 @@ public class Main {
 		new ConfirmEnding().confirmEnding();
 		new RepeatAString().repeatAString();
 		new TruncateString().truncateString();
+		new TitleCaseASentence().titleCaseASentence();
 		
 	}
 	
