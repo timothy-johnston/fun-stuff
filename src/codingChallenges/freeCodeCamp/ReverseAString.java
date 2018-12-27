@@ -3,7 +3,7 @@ package codingChallenges.freeCodeCamp;
 public class ReverseAString {
 
 	public void reverseAString() {
-		String string = "Howdy";
+		String string = "Greetings from Earth";
 	
 		System.out.println("Reversed string: " + reverseAStringImpl(string));
 	}
