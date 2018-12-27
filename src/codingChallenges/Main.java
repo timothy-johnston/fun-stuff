@@ -6,6 +6,7 @@ import codingChallenges.freeCodeCamp.FindLargestNumbers;
 import codingChallenges.freeCodeCamp.FindLongestWord;
 import codingChallenges.freeCodeCamp.RepeatAString;
 import codingChallenges.freeCodeCamp.ReverseAString;
+import codingChallenges.freeCodeCamp.TruncateString;
 import codingChallenges.hackerRank.CompareTheTriplets;
 import codingChallenges.hackerRank.CountingValleys;
 import codingChallenges.hackerRank.HourglassSum;
@@ -41,6 +42,7 @@ public class Main {
 		new FindLargestNumbers().findLargestNumbers();
 		new ConfirmEnding().confirmEnding();
 		new RepeatAString().repeatAString();
+		new TruncateString().truncateString();
 		
 	}
 	
