@@ -4,7 +4,7 @@ public class FindLongestWord {
 
 	public void findLongestWord() {
 		
-		String sentence = "What is the average airspeed velocity of an unladen swallow";
+		String sentence = "What if we try a super-long word such as otorhinolaryngology";
 		
 		System.out.println("Length of longest word: " + findLongestWordImpl(sentence));
 		

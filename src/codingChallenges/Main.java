@@ -8,6 +8,7 @@ import codingChallenges.freeCodeCamp.RepeatAString;
 import codingChallenges.freeCodeCamp.ReverseAString;
 import codingChallenges.freeCodeCamp.TitleCaseASentence;
 import codingChallenges.freeCodeCamp.TruncateString;
+import codingChallenges.freeCodeCamp.WhereDoIBelong;
 import codingChallenges.hackerRank.CompareTheTriplets;
 import codingChallenges.hackerRank.CountingValleys;
 import codingChallenges.hackerRank.HourglassSum;
@@ -45,6 +46,7 @@ public class Main {
 		new RepeatAString().repeatAString();
 		new TruncateString().truncateString();
 		new TitleCaseASentence().titleCaseASentence();
+		new WhereDoIBelong().whereDoIBelong();
 		
 	}
 	
