@@ -1,5 +1,7 @@
 package codingChallenges;
 
+import java.util.UUID;
+
 import codingChallenges.freeCodeCamp.ConfirmEnding;
 import codingChallenges.freeCodeCamp.FactorializeANumber;
 import codingChallenges.freeCodeCamp.FindLargestNumbers;
@@ -20,6 +22,12 @@ import codingChallenges.sandbox.Greeting;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		System.out.println(System.getProperty("java.home"));
+		
+		UUID uuid = UUID.randomUUID();
+		System.out.println(uuid);
+		System.out.println(uuid.toString());
 		
 		Greeting greeting = new Greeting();
 		String name = "tj";
